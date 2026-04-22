@@ -79,31 +79,6 @@ Próximos passos:
 
 ---
 
-## ▶️ Como executar o projeto
-
-### Pré-requisitos
-
-* Docker
-* Docker Compose
-
-### Subindo os serviços
-
-```bash
-docker-compose up -d
-```
-
----
-
-## 🌐 Acessos
-
-Após subir os containers:
-
-* Airflow → http://localhost:8080 *(ou porta configurada)*
-* Spark UI → http://localhost:8081
-* Metabase → http://localhost:3000
-
----
-
 ## 📊 Objetivo do Projeto
 
 Este projeto foi desenvolvido com foco em:
@@ -114,12 +89,3 @@ Este projeto foi desenvolvido com foco em:
 * Construção de portfólio profissional
 
 ---
-
-## 📌 Observações
-
-* Os dados ainda não estão sendo ingeridos (fase atual: infraestrutura)
-* O projeto será evoluído incrementalmente
-* Melhorias futuras incluem monitoramento e testes de dados
-
----
-
