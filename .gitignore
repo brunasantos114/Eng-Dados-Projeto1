@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente
+.env
+
+# Logs
+*.log
+
+# Airflow
+airflow/logs/
+airflow/*.db
+
+# Spark
+spark-warehouse/
+
+# Docker volumes / dados locais
+metabase_data/
+*.db
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
