@@ -36,6 +36,8 @@ A arquitetura do projeto está organizada nas seguintes camadas:
 * **MariaDB** → Data Warehouse
 * **Metabase** → Visualização de dados
 * **Docker & Docker Compose** → Containerização
+* **IA - Notebook KLM** → Auxiliando em estudos e buscas a partir das fontes escolhidas (tutoriais e documentações)
+* **IA - Claude** → Correção de códigos, boas práticas, entendimento do passo a passo
 
 ---
 
