@@ -1,4 +1,4 @@
-# 🚀 Projeto de Engenharia de Dados — Pipeline com Airflow, Spark, dbt e Metabase
+# Projeto de Engenharia de Dados — Pipeline com Airflow, Spark, dbt e Metabase
 
 ## 📌 Visão Geral
 
