@@ -12,10 +12,8 @@ A solução contempla desde a ingestão de dados até a camada de consumo para a
 
 A arquitetura do projeto está organizada nas seguintes camadas:
 
-* **Origem de Dados**
-* **Processamento (ETL/ELT)**
-* **Armazenamento (Data Lake + Data Warehouse)**
-* **Consumo (BI)**
+<img width="962" height="365" alt="image" src="https://github.com/user-attachments/assets/d7abdd27-f202-4688-b6ae-2cbd63c6e784" />
+
 
 ### 🔄 Fluxo de Dados
 
