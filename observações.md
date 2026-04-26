@@ -1,5 +1,5 @@
 ========== AIRFLOW - CRIAR USUÁRIO ADMIN ==========
- 
+ ---
 IMPORTANTE: O usuário admin pode não ser criado automaticamente na primeira execução.
 Se receber "Invalid login" ao tentar acessar http://localhost:8080, execute os comandos abaixo:
 
@@ -15,7 +15,7 @@ Se receber "Invalid login" ao tentar acessar http://localhost:8080, execute os c
     URL: http://localhost:8080
 
 OBSERVAÇÃO: Não use essas credenciais em ambientes de produção.
-
+---
 ================ PRIMEIRA EXECUÇÃO DO AIRFLOW
 
 Na primeira execução do airflow ocorreram erros e todas as tasks falharam ao rodar a primeira versão. 
@@ -29,7 +29,7 @@ Cliente S3 estava no escopo global - causava problemas de acesso entre tasks
 Funções aninhadas - estavam dentro de um loop, causando confusão de escopo
 Objeto S3 não era serializável - o Airflow não conseguia passar o cliente entre tasks usando XCom
 
-
+---
 Mudanças Implementadas
 1. Removeu a task setup_s3_client
 
@@ -73,9 +73,9 @@ O quê: Uma única função genérica process_table que processa qualquer tabela
 Por quê: Código mais limpo, sem repetição
 Solução: Lista de tabelas no início, loop que cria tasks para cada uma
 
-
+---
 Resultado
-✅ Todas as 7 tasks rodam com sucesso em paralelo
-✅ Dados são extraídos do PostgreSQL sem erro de conexão
-✅ CSVs são salvos no MinIO no bucket "landing"
-✅ Arquivo max_id.txt é atualizado para cada tabela (para próximas execuções incrementais)
+* ✅ Todas as 7 tasks rodam com sucesso em paralelo;
+* ✅ Dados são extraídos do PostgreSQL sem erro de conexão;
+* ✅ CSVs são salvos no MinIO no bucket "landing";
+* ✅ Arquivo max_id.txt é atualizado para cada tabela (para próximas execuções incrementais)
